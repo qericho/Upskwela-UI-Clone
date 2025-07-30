@@ -13,9 +13,8 @@ const Nav = () => {
     return (
         <nav>
             {/* Overlay */}
-            {openNav ? "" : (
-                <div className="w-full h-[100vh] absolute left-0 bg-black/50 z-1 md:hidden"></div>
-            )}
+            {openNav ? <div className="w-full h-[100vh] absolute left-0 bg-black/50 z-1 md:hidden"></div>
+                : ("")}
 
             <div className="px-10 py-4 flex items-center justify-between relative">
                 <div className="flex items-center space-x-5 text-sky-700">
@@ -46,7 +45,7 @@ const Nav = () => {
 
                 {/* Mobile Nav */}
                 <div
-                    className={`${openNav ? "right-[-900px]" : "right-0"} md:hidden
+                    className={`${openNav ? "right-0 " : "right-[-900px]"} md:hidden
                     h-[100vh] w-[300px] fixed top-0 bg-white z-1`}
                 >
                     <div className="flex flex-col px-8 py-12 space-y-10 relative">
