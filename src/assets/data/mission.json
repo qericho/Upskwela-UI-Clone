@@ -1,0 +1,19 @@
+{
+    "mission": [
+        {
+            "id": 1,
+            "title": "Gather every expertise",
+            "description": "Empower creators to build communities, teach, and earn sustainable income from their expertise."
+        },
+        {
+            "id": 2,
+            "title": "Champion collaborative learning",
+            "description": "Replace isolated study with forums, cohorts, and events."
+        },
+        {
+            "id": 3,
+            "title": "Unlock real outcomes",
+            "description": "Turn new skills into portfolios, certifications, and career opportunities."
+        }
+    ]
+}
