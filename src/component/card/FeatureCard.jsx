@@ -9,7 +9,7 @@ const FeatureCard = () => {
                     <div
                         key={id}
                         className="group w-full lg:max-w-80 h-70 p-8 
-                        hover:-translate-y-2 shadow hover:shadow-xl"
+                        hover:-translate-y-2 shadow-xs shadow-black/30 hover:shadow-xl"
                     >
                         <div className="w-full h-full flex flex-col justify-center gap-y-5">
                             <span

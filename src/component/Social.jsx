@@ -8,7 +8,7 @@ const Social = () => {
 
     return (
         <div className="py-10">
-            <Title title={data.title} desc={data.description} />
+            <Title title={data.title} desc={data.description} className={"text-[var(--color-secondary)] "} />
             <div
                 className="w-full md:w-[600px] lg:w-[1000px] mx-auto grid 
                 grid-cols-2 lg:grid-cols-5 gap-y-10 gap-x-2 lg:gap-x-10 place-items-center"

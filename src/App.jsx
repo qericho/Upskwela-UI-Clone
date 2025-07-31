@@ -1,4 +1,4 @@
-import HomeScreen from "./HomeScreen"
+import HomeScreen from "./screen/HomeScreen"
 
 const App = () => {
   return (

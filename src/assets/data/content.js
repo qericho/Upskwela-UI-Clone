@@ -73,5 +73,9 @@ export const content = {
                     "Turn new skills into portfolios, certifications, and career opportunities."
             }
         ]
+    },
+    banner: {
+        title: "Ready to monetize your expertise?",
+        description: "Turn your knowledge into income. Create courses, build communities, and start earning with our revenue-sharing platform."
     }
 };

@@ -8,9 +8,9 @@ const MissionVission = () => {
 
     return (
         <div className="py-10">
-            <Title title={data.title} desc={data.description} />
+            <Title title={data.title} desc={data.description} className={"text-[var(--color-secondary)] "} />
             <div>
-                <Title title={data2.title} />
+                <Title title={data2.title} className={"text-[var(--color-secondary)] "} />
                 <div className="grid place-items-center w-full lg:w-[1000px] gap-5 mx-auto lg:grid-cols-3 grid-cols-1">
                     {data2.items.map((item, i) => {
                         return (

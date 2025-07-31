@@ -6,7 +6,7 @@ const Feature = () => {
     return (
         <section>
             <div>
-                <Title title={data.title} desc={data.description} />
+                <Title title={data.title} desc={data.description} className={"text-[var(--color-secondary)] "} />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
                  place-items-center gap-5 w-full lg:w-[1000px] mx-auto">
                     <FeatureCard />
