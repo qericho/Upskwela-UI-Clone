@@ -9,13 +9,12 @@ const MissionVission = () => {
     return (
         <div className="py-10">
             <Title title={data.title} desc={data.description} />
-            <div className="relative top-[-80px]">
+            <div>
                 <Title title={data2.title} />
                 <div className="grid place-items-center w-full lg:w-[1000px] gap-5 mx-auto lg:grid-cols-3 grid-cols-1">
-                    {data2.items.map((item, key) => {
+                    {data2.items.map((item, i) => {
                         return (
-                            <MissionCard
-                                id={key}
+                            <MissionCard key={i}
                                 title={item.title}
                                 desc={item.description}
                                 number={item.number}
@@ -24,7 +23,7 @@ const MissionVission = () => {
                     })}
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

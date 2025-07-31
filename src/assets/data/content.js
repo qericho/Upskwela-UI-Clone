@@ -1,3 +1,8 @@
+import { FaFacebook } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
 
 export const content = {
     features: {
@@ -13,7 +18,34 @@ export const content = {
     socialSection: {
         title: "Join our Community",
         description:
-            "Connect with us on social media for updates, tips, and community highlights"
+            "Connect with us on social media for updates, tips, and community highlights",
+        icons: [
+            {
+                name: "Facebook",
+                href: "https://facebook.com",
+                icon: FaFacebook
+            },
+            {
+                name: "Twitter",
+                href: "https://twitter.com",
+                icon: FaSquareXTwitter
+            },
+            {
+                name: "TikTok",
+                href: "https://tiktok.com",
+                icon: FaTiktok
+            },
+            {
+                name: "Instagram",
+                href: "https://instagram.com",
+                icon: FaSquareInstagram
+            },
+            {
+                name: "YouTube",
+                href: "https://youtube.com",
+                icon: FaYoutube
+            }
+        ]
     },
     community: {
         title: "Join our Community",
@@ -42,5 +74,4 @@ export const content = {
             }
         ]
     }
-
 };

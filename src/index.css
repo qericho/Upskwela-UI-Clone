@@ -3,7 +3,8 @@
 :root {
     --color-pri: hsl(207, 83%, 49%);
     --color-secondary: hsl(207, 50%, 40%);
-    --color-fade: hsla(207, 83%, 49%, 0.13);
+    --color-dark: hsl(207, 50%, 22%);
+    --color-fade: hsla(207, 83%, 49%, 0.226);
 
     --shadow-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -13,7 +14,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 0 20px;
+    overflow-x: hidden;
 
     @media(max-width: 400px) {
         width: 380px;

@@ -1,7 +1,6 @@
-const MissionCard = ({ id, title, desc, number }) => {
+const MissionCard = ({ title, desc, number }) => {
     return (
         <div
-            key={id}
             className="w-full lg:w-[310px] h-[160px] flex flex-col justify-center p-5 relative space-y-4 shadow-xs"
         >
             <h4 className="font-semibold tracking-tight text-lg text-[var(--color-secondary)] w-full lg:w-[200px]">

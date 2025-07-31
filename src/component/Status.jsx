@@ -1,7 +1,7 @@
 
 const Status = () => {
     return (
-        <div className="text-center w-full">
+        <div className="text-center w-full mb-10">
             <h4 className="mb-5 text-sm font-medium uppercase tracking-wider text-[var(--color-secondary)]">PLATFORM STATUS</h4>
             <ul className="grid grid-cols-4 place-items-center py-4  mx-auto
                              max-w-[600px]">

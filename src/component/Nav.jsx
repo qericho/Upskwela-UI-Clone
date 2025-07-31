@@ -33,14 +33,16 @@ const Nav = () => {
                     {/* Links */}
                     <ul className="space-x-5 md:flex hidden">
                         <li className="text-[13px] font-bold text-sky-500">Home</li>
-                        <li className="text-[13px] font-bold">Roadmap</li>
+                        <li className="text-[13px] font-bold hover:text-sky-500 cursor-pointer">Roadmap</li>
                     </ul>
                 </div>
 
                 {/* Login/Sign Up */}
                 <div className="font-bold space-x-3 md:flex hidden text-[13px]">
-                    <button className="px-3 py-2 text-[hsl(202,50%,40%)] cursor-pointer">Login</button>
-                    <button className="px-3 py-1 bg-[hsl(207,83%,49%)] text-white rounded cursor-pointer">Sign Up</button>
+                    <button className="px-3 py-2 text-[hsl(202,50%,40%)] hover:text-white rounded
+                     hover:bg-[hsl(207,83%,49%)] cursor-pointer">Login</button>
+                    <button className="px-3 py-1 bg-[hsl(207,83%,49%)]
+                     text-white rounded cursor-pointer">Sign Up</button>
                 </div>
 
                 <span
@@ -60,7 +62,8 @@ const Nav = () => {
                             <li className="text-sky-500 text-[13px] font-bold bg-black/5 p-2 rounded cursor-pointer">
                                 Home
                             </li>
-                            <li className="text-[13px] font-bold p-2 rounded flex items-center gap-2 text-sky-700 cursor-pointer">
+                            <li className="text-[13px] font-bold p-2 rounded flex items-center gap-2 hover:text-sky-500 
+                             text-sky-700 cursor-pointer">
                                 <CiMap />
                                 Roadmap
                             </li>
@@ -70,7 +73,7 @@ const Nav = () => {
 
                         {/* Login/Sign Up */}
                         <div className="font-bold space-y-5">
-                            <button className="text-[13px] w-full py-2 text-sky-700 cursor-pointer">
+                            <button className="text-[13px] w-full py-2 hover:bg-sky-500 hover:text-white text-sky-700 rounded cursor-pointer">
                                 Login
                             </button>
                             <button className="text-[13px] w-full py-2 text-white bg-sky-500 hover:bg-sky-600 rounded cursor-pointer">
