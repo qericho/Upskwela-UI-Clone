@@ -23,7 +23,7 @@ const Nav = () => {
             {openNav ? <div className="w-full h-full fixed left-0 bg-black/50 z-1 md:hidden"></div>
                 : ("")}
 
-            <div className="px-5 md:px-10 py-4 flex items-center justify-between relative">
+            <div className="px-0 md:px-10 py-4 flex items-center justify-between relative">
                 <div className="flex items-center space-x-5 text-[hsl(202,50%,40%)] ">
                     <img
                         className="w-[130px]"

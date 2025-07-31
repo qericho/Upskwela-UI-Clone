@@ -3,6 +3,7 @@
 :root {
     --color-pri: hsl(207, 83%, 49%);
     --color-secondary: hsl(207, 50%, 40%);
+    --color-fade: hsla(207, 83%, 49%, 0.13);
 
     --shadow-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
