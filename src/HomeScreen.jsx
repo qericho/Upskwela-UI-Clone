@@ -1,10 +1,11 @@
-import React from 'react'
+import { Hero } from './component/Hero'
 import Nav from './component/Nav'
 
 const HomeScreen = () => {
     return (
         <>
             <Nav />
+            <Hero />
         </>
     )
 }

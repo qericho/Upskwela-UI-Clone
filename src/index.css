@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+body {
+    background: linear-gradient(to right, #eaf5fd, #ffffff);
+    min-height: 100vh;
+}
+
+
+.text-gradient-radiant {
+    color: #1081d3;
+    background: linear-gradient(to right, #1081d3, #105180, #10293c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

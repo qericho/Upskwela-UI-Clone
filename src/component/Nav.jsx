@@ -16,8 +16,8 @@ const Nav = () => {
             {openNav ? <div className="w-full h-[100vh] absolute left-0 bg-black/50 z-1 md:hidden"></div>
                 : ("")}
 
-            <div className="px-10 py-4 flex items-center justify-between relative">
-                <div className="flex items-center space-x-5 text-sky-700">
+            <div className="px-5 md:px-10 py-4 flex items-center justify-between relative">
+                <div className="flex items-center space-x-5 text-[hsl(202,50%,40%)] ">
                     <img
                         className="w-[130px]"
                         src="https://www.upskwela.com/_astro/logo.BY9msEYF.svg"
@@ -25,15 +25,15 @@ const Nav = () => {
                     />
                     {/* Links */}
                     <ul className="space-x-5 md:flex hidden">
-                        <li className="text-[15px] font-bold text-sky-500">Home</li>
-                        <li className="text-[15px] font-bold">Roadmap</li>
+                        <li className="text-[13px] font-bold text-sky-500">Home</li>
+                        <li className="text-[13px] font-bold">Roadmap</li>
                     </ul>
                 </div>
 
                 {/* Login/Sign Up */}
-                <div className="font-bold space-x-3 md:flex hidden">
-                    <button className="px-5 py-2 text-sky-700">Login</button>
-                    <button className="px-5 py-2 bg-sky-500 rounded text-white">Sign Up</button>
+                <div className="font-bold space-x-3 md:flex hidden text-[13px]">
+                    <button className="px-3 py-2 text-[hsl(202,50%,40%)] cursor-pointer">Login</button>
+                    <button className="px-3 py-1 bg-[hsl(207,83%,49%)] text-white rounded cursor-pointer">Sign Up</button>
                 </div>
 
                 <span
