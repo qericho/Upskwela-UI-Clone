@@ -50,10 +50,10 @@ const Nav = () => {
                 >
                     <div className="flex flex-col px-8 py-12 space-y-10 relative">
                         <ul className="font-bold space-y-5">
-                            <li className="text-sky-500 text-[15px] font-bold bg-black/5 p-2 rounded cursor-pointer">
+                            <li className="text-sky-500 text-[13px] font-bold bg-black/5 p-2 rounded cursor-pointer">
                                 Home
                             </li>
-                            <li className="text-[15px] font-bold p-2 rounded flex items-center gap-2 text-sky-700 cursor-pointer">
+                            <li className="text-[13px] font-bold p-2 rounded flex items-center gap-2 text-sky-700 cursor-pointer">
                                 <CiMap />
                                 Roadmap
                             </li>
@@ -63,10 +63,10 @@ const Nav = () => {
 
                         {/* Login/Sign Up */}
                         <div className="font-bold space-y-5">
-                            <button className="w-full py-2 text-sky-700 cursor-pointer">
+                            <button className="text-[13px] w-full py-2 text-sky-700 cursor-pointer">
                                 Login
                             </button>
-                            <button className="w-full py-2 text-white bg-sky-500 hover:bg-sky-600 rounded cursor-pointer">
+                            <button className="text-[13px] w-full py-2 text-white bg-sky-500 hover:bg-sky-600 rounded cursor-pointer">
                                 Sign Up
                             </button>
                         </div>
