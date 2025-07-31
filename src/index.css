@@ -1,10 +1,23 @@
 @import "tailwindcss";
 
-body {
-    background: linear-gradient(to right, #eaf5fd, #ffffff);
-    min-height: 100vh;
+:root {
+    --color-pri: hsl(207, 83%, 49%);
+    --color-secondary: hsl(207, 50%, 40%);
+
+    --shadow-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
+body {
+    background: linear-gradient(to right, #eaf5fd, #ffffff);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0 20px;
+
+    @media(max-width: 400px) {
+        width: 380px;
+    }
+}
 
 .text-gradient-radiant {
     color: #1081d3;

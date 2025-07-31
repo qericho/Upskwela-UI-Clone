@@ -38,23 +38,24 @@ export const Hero = () => {
                     </h1>
 
                     {/* Paragraph 1 */}
-                    <p className="tracking-tight px-10 mx-auto max-w-[700px] text-[hsl(202,50%,40%)] text-lg md:text-xl text-center">
+                    <p className="tracking-tight mx-auto max-w-[700px] text-[hsl(202,50%,40%)] text-lg md:text-xl text-center">
                         Build and monetize your community or join one. Share your expertise, earn from your courses, and grow with peers.
                     </p>
 
                     {/* Tagline 2 */}
-                    <div className="space-x-2 relative bg-[rgba(23,163,74,0.15)] flex items-center border border-[#ddd] text-[rgb(22,163,74)] px-5 py-3 text-sm font-bold rounded-full">
+                    <div className="space-x-2 relative bg-[rgba(23,163,74,0.06)] flex items-center 
+                     text-[rgb(22,163,74)] px-5 py-2 text-md font-medium rounded-full">
                         <span className="text-[25px]"><CiCircleCheck /></span>
                         <span>Beta Successfully Launched!</span>
                     </div>
 
                     {/* Paragraph 2 */}
-                    <p className="tracking-tight px-10 mx-auto max-w-[700px] text-[hsl(202,50%,40%)] text-lg md:text-xl text-center">
+                    <p className="tracking-tight mx-auto max-w-[550px] text-[hsl(202,50%,40%)] text-lg md:text-xl text-center">
                         We're live with core features. Check out our roadmap to see what's coming next.
                     </p>
 
                     {/* Buttons */}
-                    <div className="flex-col md:flex-row flex justify-center items-center gap-3 relative top-[20px] md:top-[50px]">
+                    <div className="flex-col md:flex-row flex justify-center items-center gap-3 relative [20px]">
                         <LargeBtn
                             icon={<LuRocket size={20} />}
                             title="View Roadmap"
